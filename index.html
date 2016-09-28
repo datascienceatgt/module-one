@@ -1,0 +1,512 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js – The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/simple.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+		<link rel="stylesheet" href="custom.css">
+		<link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+
+		<body>
+
+
+		<div class="reveal">
+		<div class="slides">
+		<section><section>
+		<div class="cell border-box-sizing text_cell rendered">
+		<div class="prompt input_prompt">
+		</div>
+		<div class="inner_cell">
+		<div class="text_cell_render border-box-sizing rendered_html">
+		<h2>Data Science at GT</h2>
+		</div>
+		</div>
+		</div><div class="fragment">
+		<div class="cell border-box-sizing text_cell rendered">
+		<div class="prompt input_prompt">
+		</div>
+		<div class="inner_cell">
+		<div class="text_cell_render border-box-sizing rendered_html">
+		<h3>09/27 - Finding & Cleaning Data</h3>
+		</div>
+		</div>
+		</div></div></section></section><section><section>
+		<div class="cell border-box-sizing text_cell rendered">
+		<div class="prompt input_prompt">
+		</div>
+		<div class="inner_cell">
+		<div class="text_cell_render border-box-sizing rendered_html">
+		<h2>Agenda</h2>
+		</div>
+		</div>
+		</div></section><section>
+		<div class="cell border-box-sizing text_cell rendered">
+		<div class="prompt input_prompt">
+		</div>
+		<div class="inner_cell">
+		<div class="text_cell_render border-box-sizing rendered_html">
+		<ul>
+		<li>Gathering Data</li>
+		<li>Cleaning Data</li>
+		<li>Group Activity</li>
+		<li>Announcements</li>
+		</ul>
+		</div>
+		</div>
+		</div></section></section><section><section>
+		<div class="cell border-box-sizing text_cell rendered">
+		<div class="prompt input_prompt">
+		</div>
+		<div class="inner_cell">
+		<div class="text_cell_render border-box-sizing rendered_html">
+		<p><h2>Gathering Data</h3></p>
+
+		</div>
+		</div>
+		</div></section><section>
+		<div class="cell border-box-sizing text_cell rendered">
+		<div class="prompt input_prompt">
+		</div>
+		<div class="inner_cell">
+		<div class="text_cell_render border-box-sizing rendered_html">
+		<p><h3>Some channels to use when looking for data include:</h3></p>
+		<ul>
+		<li>Open Data Projects</li>
+		<li>APIs </li>
+		<li>Web Scraping</li>
+		<li>Creating Data</li>
+		</ul>
+		</div>
+		</div>
+		</div></section><section>
+		<div class="cell border-box-sizing text_cell rendered">
+		<div class="prompt input_prompt">
+		</div>
+		<div class="inner_cell">
+		<div class="text_cell_render border-box-sizing rendered_html">
+		<h2>What is Open Data?</h2>
+		</div>
+		</div>
+		</div><div class="fragment">
+		<div class="cell border-box-sizing text_cell rendered">
+		<div class="prompt input_prompt">
+		</div>
+		<div class="inner_cell">
+		<div class="text_cell_render border-box-sizing rendered_html">
+		<ul><li>Collections of data sources and warehouses made available to the public</li> <li>Developed by governments, corporations, and research groups with the hope that others can extract value from them</li>
+		<li>Generally well documented and formatted</li>
+		</ul>
+		</div>
+		</div>
+		</div></div></section></section><section><section>
+		<div class="cell border-box-sizing text_cell rendered">
+		<div class="prompt input_prompt">
+		</div>
+		<div class="inner_cell">
+		<div class="text_cell_render border-box-sizing rendered_html">
+		<p><h3>Government</h3></p>
+		<ul>
+		<li>US</li>
+		<li>UK</li>
+		<li>Dubai</li>
+		<li>Africa</li>
+		</ul>
+		</div>
+		</div>
+		</div></section><section>
+		<div class="cell border-box-sizing text_cell rendered">
+		<div class="prompt input_prompt">
+		</div>
+		<div class="inner_cell">
+		<div class="text_cell_render border-box-sizing rendered_html">
+		<table style="width:100%">
+		  <tr>
+		    <th>Location</th>
+		    <th>URL</th>
+		  </tr>
+		  <tr>
+		    <td>United States</td>
+		    <td>http://www.data.gov
+		    </td>
+
+		  </tr>
+		  <tr>
+		    <td>United Kingdom</td>
+		    <td>http://www.data.gov.uk
+
+		</td>
+
+		  </tr>
+		    <tr>
+		    <td>Dubai</td>
+		    <td>http://www.dm.gov.ae
+		</td>
+
+		  </tr>
+		    <tr>
+		    <td>Africa</td>
+		    <td>http://opendataforafrica.org/</td>
+
+		  </tr>
+		</table>
+		</div>
+		</div>
+		</div></section></section><section><section>
+		<div class="cell border-box-sizing text_cell rendered">
+		<div class="prompt input_prompt">
+		</div>
+		<div class="inner_cell">
+		<div class="text_cell_render border-box-sizing rendered_html">
+		<p><h3>Corporate</h3></p>
+		<ul>
+		<li>Lending Club: Peer-to-peer lending marketplace</li>
+		<li>World Bank</li>
+		<li>Airbnb: User pathway challenge</li>
+		</ul>
+		</div>
+		</div>
+		</div></section><section>
+		<div class="cell border-box-sizing text_cell rendered">
+		<div class="prompt input_prompt">
+		</div>
+		<div class="inner_cell">
+		<div class="text_cell_render border-box-sizing rendered_html">
+		<table style="width:100%">
+		  <tr>
+		    <th>Corporation</th>
+		    <th>URL</th>
+		  </tr>
+		  <tr>
+		    <td>Lending Club</td>
+		    <td>https://www.lendingclub.com/info/download-data.action
+
+		    </td>
+
+		  </tr>
+		  <tr>
+		    <td>World Bank</td>
+		    <td>http://data.worldbank.org/
+
+
+		</td>
+
+		  </tr>
+		    <tr>
+		    <td>Airbnb</td>
+		    <td>http://databits.io/challenges/airbnb-user-pathways-challenge
+
+		</td>
+		</table>
+		</div>
+		</div>
+		</div></section></section><section><section>
+		<div class="cell border-box-sizing text_cell rendered">
+		<div class="prompt input_prompt">
+		</div>
+		<div class="inner_cell">
+		<div class="text_cell_render border-box-sizing rendered_html">
+		<p><h3>APIs</h3></p>
+		<ul>
+		<li>Application Programming Interface</li>
+		<li>Access and develop on sets of methods provided by entities</li>
+		<li>Data directly into program</li>
+		</ul>
+		</div>
+		</div>
+		</div></section></section><section><section>
+		<div class="cell border-box-sizing text_cell rendered">
+		<div class="prompt input_prompt">
+		</div>
+		<div class="inner_cell">
+		<div class="text_cell_render border-box-sizing rendered_html">
+		<p><h3>Which companies provide API access?</h3></p>
+		<ul>
+		<li>Facebook</li>
+		<li>Twitter</li>
+		<li>Quandl</li>
+		</ul>
+		</div>
+		</div>
+		</div></section></section><section><section>
+		<div class="cell border-box-sizing text_cell rendered">
+		<div class="prompt input_prompt">
+		</div>
+		<div class="inner_cell">
+		<div class="text_cell_render border-box-sizing rendered_html">
+		<h3>Access Quandl API</h3>
+		</div>
+		</div>
+		</div><div class="fragment">
+		<div class="cell border-box-sizing code_cell rendered">
+		<div class="input">
+		<div class="prompt input_prompt">In&nbsp;[5]:</div>
+		<div class="inner_cell">
+		    <div class="input_area">
+		<div class=" highlight hl-ipython2"><pre><span class="kn">import</span> <span class="nn">quandl</span>
+		</pre></div>
+
+		</div>
+		</div>
+		</div>
+
+		</div></div><div class="fragment">
+		<div class="cell border-box-sizing code_cell rendered">
+		<div class="input">
+		<div class="prompt input_prompt">In&nbsp;[6]:</div>
+		<div class="inner_cell">
+		    <div class="input_area">
+		<div class=" highlight hl-ipython2"><pre><span class="n">data</span> <span class="o">=</span> <span class="n">quandl</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">&#39;NSE/OIL&#39;</span><span class="p">)</span>
+		</pre></div>
+
+		</div>
+		</div>
+		</div>
+
+		</div></div></section></section><section><section>
+		<div class="cell border-box-sizing code_cell rendered">
+		<div class="input">
+		<div class="prompt input_prompt">In&nbsp;[7]:</div>
+		<div class="inner_cell">
+		    <div class="input_area">
+		<div class=" highlight hl-ipython2"><pre><span class="n">data</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+		</pre></div>
+
+		</div>
+		</div>
+		</div>
+
+		<div class="output_wrapper">
+		<div class="output">
+
+
+		<div class="output_area"><div class="prompt output_prompt">Out[7]:</div>
+
+		<div class="output_html rendered_html output_subarea output_execute_result">
+		<div style="max-height:1000px;max-width:1500px;overflow:auto;">
+		<table border="1" class="dataframe">
+		  <thead>
+		    <tr style="text-align: right;">
+		      <th></th>
+		      <th>Open</th>
+		      <th>High</th>
+		      <th>Low</th>
+		      <th>Last</th>
+		      <th>Close</th>
+		      <th>Total Trade Quantity</th>
+		      <th>Turnover (Lacs)</th>
+		    </tr>
+		    <tr>
+		      <th>Date</th>
+		      <th></th>
+		      <th></th>
+		      <th></th>
+		      <th></th>
+		      <th></th>
+		      <th></th>
+		      <th></th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		    <tr>
+		      <th>2009-09-30</th>
+		      <td>1096.0</td>
+		      <td>1156.7</td>
+		      <td>1090.0</td>
+		      <td>1135.00</td>
+		      <td>1141.20</td>
+		      <td>19748012</td>
+		      <td>223877.07</td>
+		    </tr>
+		    <tr>
+		      <th>2009-10-01</th>
+		      <td>1102.0</td>
+		      <td>1173.7</td>
+		      <td>1102.0</td>
+		      <td>1167.00</td>
+		      <td>1166.35</td>
+		      <td>3074254</td>
+		      <td>35463.78</td>
+		    </tr>
+		    <tr>
+		      <th>2009-10-05</th>
+		      <td>1152.0</td>
+		      <td>1165.9</td>
+		      <td>1136.6</td>
+		      <td>1143.00</td>
+		      <td>1140.55</td>
+		      <td>919832</td>
+		      <td>10581.13</td>
+		    </tr>
+		    <tr>
+		      <th>2009-10-06</th>
+		      <td>1149.8</td>
+		      <td>1157.2</td>
+		      <td>1132.1</td>
+		      <td>1143.30</td>
+		      <td>1144.90</td>
+		      <td>627957</td>
+		      <td>7185.90</td>
+		    </tr>
+		    <tr>
+		      <th>2009-10-07</th>
+		      <td>1153.8</td>
+		      <td>1160.7</td>
+		      <td>1140.0</td>
+		      <td>1141.45</td>
+		      <td>1141.60</td>
+		      <td>698216</td>
+		      <td>8032.98</td>
+		    </tr>
+		  </tbody>
+		</table>
+		</div>
+		</div>
+
+		</div>
+
+		</div>
+		</div>
+
+		</div></section></section><section><section>
+		<div class="cell border-box-sizing text_cell rendered">
+		<div class="prompt input_prompt">
+		</div>
+		<div class="inner_cell">
+		<div class="text_cell_render border-box-sizing rendered_html">
+		<p><h3>Web Scraping</h3></p>
+		<ul>
+		<li>Not all data is readily accessible </li>
+		<li>Scraping may work when APIs don't exist</li>
+		<li>Tools to look into: Python, R, Bash, PHP</li>
+		<li>Take note of copyright and confidentiality</li>
+		</ul>
+		</div>
+		</div>
+		</div></section></section><section><section>
+		<div class="cell border-box-sizing text_cell rendered">
+		<div class="prompt input_prompt">
+		</div>
+		<div class="inner_cell">
+		<div class="text_cell_render border-box-sizing rendered_html">
+		<p><h3>Creating Data</h3></p>
+		<ul>
+		<li>Interviews</li>
+		<ul>
+		<li>Structured vs. Unstructured data</li>
+		</ul>
+		<li>Surveys</li>
+		<ul>
+		<li>Scalable with various tools</li>
+		<li>Sampling bias, wording</li>
+		</ul>
+		</ul>
+		</div>
+		</div>
+		</div></section></section><section><section>
+		<div class="cell border-box-sizing text_cell rendered">
+		<div class="prompt input_prompt">
+		</div>
+		<div class="inner_cell">
+		<div class="text_cell_render border-box-sizing rendered_html">
+		<p><h3>Data Cleaning</h3></p>
+		<ul>
+		<li>OpenRefine</li>
+		<ul>
+		<li>Easy to use</li>
+		<li>Most basic operations can be completed with the interface</li>
+		</ul>
+		<li>Google Sheets</li>
+		<ul>
+		<li>Clean data through Google App Scripts</li>
+		<li>Slow but intuitive if familiar with javascript</li>
+		</ul>
+		</ul>
+		</div>
+		</div>
+		</div></section></section><section><section>
+		<div class="cell border-box-sizing text_cell rendered">
+		<div class="prompt input_prompt">
+		</div>
+		<div class="inner_cell">
+		<div class="text_cell_render border-box-sizing rendered_html">
+		<p><h3>Group Activity</h3></p>
+		<h4>In groups of 3 to 5, look for a dataset and identify some strategies to extract value from it. Discuss your reasoning with the group.</h4>
+		</div>
+		</div>
+		</div></section></section><section><section>
+		<div class="cell border-box-sizing text_cell rendered">
+		<div class="prompt input_prompt">
+		</div>
+		<div class="inner_cell">
+		<div class="text_cell_render border-box-sizing rendered_html">
+		<p><h3>Announcements</h3></p>
+		<p><h4>Blog Posts</h4></p>
+		<ul>
+		<li>Groups of 1 to 3</li>
+		<li>Short summaries</li>
+		</ul>
+		</div>
+		</div>
+		</div></section></section>
+		</div>
+		</div>
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
